@@ -43,6 +43,14 @@ ODE-based signaling pathway models are commonly used in systems biology to study
 
 This project demonstrates foundational computational biology concepts involving pathway modeling, dynamic systems simulation, and quantitative biological interpretation.
 
+## Example Results
+
+This project models cytoplasmic MAP kinase signaling dynamics using MATLAB and ordinary differential equation (ODE) simulation methods based on the work of Tianhai Tian and Jiangning Song.
+
+The model simulates signaling interactions between Ras, Raf, MEK, and ERK pathway components using kinetic parameters derived from published supplementary datasets. Simulation results demonstrated dynamic increases in ERKpp concentration over time, including rapid pathway activation followed by gradual stabilization near steady-state levels.
+
+Because ERKpp represents the terminal signaling product in the modeled pathway, increasing ERKpp concentrations suggest successful signal propagation through upstream phosphorylation events involving MEK and ERK activation. The observed plateau behavior indicates the system approaches a steady-state signaling response under the simulated conditions.
+
 ## Usage
 
 Run the simulation in MATLAB using:
